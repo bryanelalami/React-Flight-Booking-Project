@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  .App-logo {
+    height: 80px;
+  }
+  
+  .App-header {
+    background-color: #222;
+    padding: 20px;
+    color: white;
+  }
+  
+  .App-header .title{
+    margin-top: 40px;
+  }
+  
+  .App-header a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    transition: .2s all;
+  }
+  .App-header a:hover{
+    opacity: .7;
+  }
+  
+  .githubIcon{
+    height: 10px;
+    margin-right: 5px;
+  }
+  
+  .Countdown{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background-color: #613FB1;
+    color: white;
+  }
+  
+  
+  .Countdown-col{
+    display: inline-block;
+  }
+  
+  .Countdown-col-element{
+    display: inline-block;
+    margin: 0 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .Countdown-col-element strong{
+    font-size: 15px;
+  }
+
+  .Countdown span {
+    font-size: 15px;
+  }
